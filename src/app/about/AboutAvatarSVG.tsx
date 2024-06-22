@@ -3,7 +3,7 @@ const AboutAvatarSVG = ({ className }: { className?: string }) => (
     xmlns="http://www.w3.org/2000/svg"
     xmlSpace="preserve"
     style={{
-      enableBackground: "new 0 0 500 500",
+      background: "new 0 0 500 500",
     }}
     viewBox="0 0 500 500"
     className={className}
