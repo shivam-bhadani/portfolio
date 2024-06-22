@@ -1,4 +1,4 @@
-import { Spotlight } from "./ui/Spotlight";
+import { Spotlight } from "@/components/ui/Spotlight";
 
 export default function SpotlightPreview() {
   return (

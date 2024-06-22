@@ -1,7 +1,7 @@
 "use client"
 
 import { motion } from "framer-motion";
-import { GithubIcon, InstagramIcon, LinkedInIcon, TwitterIcon } from "./Icons";
+import { GithubIcon, InstagramIcon, LinkedInIcon, TwitterIcon } from "@/components/Icons";
 
 const Footer = () => {
   return (

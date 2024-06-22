@@ -1,5 +1,5 @@
-import SkillSection from "./SkillSection";
-import AboutAvatarSVG from "./AboutAvatarSVG";
+import SkillSection from "@/app/about/SkillSection";
+import AboutAvatarSVG from "@/app/about/AboutAvatarSVG";
 import { IoIosStar } from "react-icons/io";
 
 const About = () => {

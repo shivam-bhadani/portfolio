@@ -3,7 +3,7 @@
 import { useState } from "react";
 import { motion, AnimatePresence, MotionConfig } from "framer-motion";
 import Link from "next/link";
-import { GithubIcon, InstagramIcon, LinkedInIcon, TwitterIcon } from "./Icons";
+import { GithubIcon, InstagramIcon, LinkedInIcon, TwitterIcon } from "@/components/Icons";
 
 interface INavItem {
   name: string;

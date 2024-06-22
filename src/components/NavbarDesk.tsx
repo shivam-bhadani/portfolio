@@ -1,7 +1,7 @@
 "use client";
 
 import { CustomLink } from "@/components/ui/CustomNavLink";
-import { GithubIcon, InstagramIcon, LinkedInIcon, TwitterIcon } from "./Icons";
+import { GithubIcon, InstagramIcon, LinkedInIcon, TwitterIcon } from "@/components/Icons";
 import { motion } from "framer-motion";
 
 interface INavItem {
