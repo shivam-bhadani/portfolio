@@ -11,7 +11,7 @@ const Experience = () => {
             key={`exp_${key_exp}`}
             duration={Math.floor(Math.random() * 10000) + 10000}
             borderRadius="1.5rem"
-            className="bg-white dark:bg-dark-color-2 text-black dark:text-white border-neutral-200 dark:border-slate-800 p-10 flex flex-col"
+            className="bg-white dark:bg-dark-color-2 text-black dark:text-white border-neutral-200 dark:border-slate-800 p-10 flex flex-col mt-4 md:mt-0"
             containerClassName="m-auto w-[900px] max-w-[90%] h-auto md:mt-10"
           >
             <div className="w-[100%] md:px-6 px-1">
