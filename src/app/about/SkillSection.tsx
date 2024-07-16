@@ -17,6 +17,10 @@ const SkillSection = () => {
       category: "Database",
       value: "MySQL, MongoDB, Redis",
     },
+    {
+      category: "DevOps",
+      value: "Docker, Kubernetes, AWS",
+    },
   ];
   return (
     <BackgroundGradient className="rounded-[22px] w-[100%] p-4 sm:p-10 bg-white dark:bg-dark-color-2">

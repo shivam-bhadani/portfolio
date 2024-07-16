@@ -33,7 +33,7 @@ const Hero = () => {
   ];
   const router = useRouter();
   return (
-    <div className="flex flex-col items-center justify-center h-[20rem] md:h-[30rem]  ">
+    <div className="flex flex-col items-center justify-center h-[20rem] md:h-[26rem]  ">
       <p className="text-neutral-600 dark:text-neutral-200 text-xs sm:text-base  ">
         Transforming Ideas into Functional Software
       </p>
@@ -52,7 +52,7 @@ const Hero = () => {
           </span>
         </button>
         <button
-          className="px-10 py-2 rounded-full bg-gradient-to-b from-blue-500 to-blue-600 text-white focus:ring-2 focus:ring-blue-400 hover:shadow-xl transition duration-200"
+          className="px-10 py-3 rounded-full bg-gradient-to-b from-blue-500 to-blue-600 text-white focus:ring-2 focus:ring-blue-400 hover:shadow-xl transition duration-200"
           onClick={() => router.push("/projects")}
         >
           Projects
