@@ -1,18 +1,18 @@
 "use client";
 
-import { useMediaQuery } from "react-responsive";
+import useDeviceContext from "@/customHooks/useDeviceContext";
 import NavbarMob from "@/components/NavbarMob";
 import NavbarDesk from "@/components/NavbarDesk";
 import { navItems } from "@/data";
 
 const Navbar = () => {
-  const isMobile = useMediaQuery({ query: "(max-width: 1024px)" });
+  const device = useDeviceContext();
   return (
     <>
-      {isMobile ? (
-        <NavbarMob navItems={navItems} />
-      ) : (
+      {device?.isDesktop ? (
         <NavbarDesk navItems={navItems} />
+      ) : (
+        <NavbarMob navItems={navItems} />
       )}
     </>
   );

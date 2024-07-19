@@ -11,7 +11,7 @@ interface INavItem {
 
 const NavbarDesk = ({ navItems }: { navItems: INavItem[] }) => {
   return (
-    <header className="w-full px-32 py-8 font-medium flex items-center justify-between">
+    <div className="w-full px-32 py-8 font-medium flex items-center justify-between">
       <div>
         {navItems.map((item, key) => (
           <CustomLink key={key} name={item.name} link={item.link} />
@@ -51,7 +51,7 @@ const NavbarDesk = ({ navItems }: { navItems: INavItem[] }) => {
           <InstagramIcon className="w-8" />
         </motion.a>
       </nav>
-    </header>
+    </div>
   );
 }
 
