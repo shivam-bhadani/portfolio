@@ -4,6 +4,10 @@ const navItems = [
     link: "/"
   },
   {
+    name: "Blogs",
+    link: "https://medium.com/@shivambhadani_"
+  },
+  {
     name: "About",
     link: "/about"
   },
