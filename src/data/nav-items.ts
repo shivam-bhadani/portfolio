@@ -1,4 +1,6 @@
-const navItems = [
+import { INavItem } from "./types";
+
+const navItems: Array<INavItem> = [
   {
     name: "Home",
     link: "/"
@@ -18,6 +20,10 @@ const navItems = [
   {
     name: "Projects",
     link: "/projects"
+  },
+  {
+    name: "Student Guide",
+    link: "/student-guide"
   },
   {
     name: "Contact",

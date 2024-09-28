@@ -1,4 +1,6 @@
-const experiences = [
+import { IExperience } from "./types";
+
+const experiences : Array<IExperience> = [
   {
     company: "Airblack",
     role: "Fullstack Intern",
