@@ -3,7 +3,7 @@ import { IRecentBlog } from "@/data/types";
 
 const RecentBlogCard = (props: IRecentBlog) => {
   return (
-    <div className="p-5 py-6 w-[360px] bg-[conic-gradient(at_bottom_right,_var(--tw-gradient-stops))] from-slate-900 via-purple-900 to-slate-900 dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-dark-color-2 dark:border-white/[0.2] border-black/[0.1] rounded-xl border">
+    <div className="p-5 py-6 mx-auto w-[360px] max-w-[90%] bg-[conic-gradient(at_bottom_right,_var(--tw-gradient-stops))] from-slate-900 via-purple-900 to-slate-900 dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-dark-color-2 dark:border-white/[0.2] border-black/[0.1] rounded-xl border">
       <div className="h-[100%] flex flex-col justify-between">
         <div>
           <Image
@@ -11,7 +11,7 @@ const RecentBlogCard = (props: IRecentBlog) => {
             alt={props.title}
             width={308.4}
             height={250}
-            className="m-auto pt-2 rounded-xl"
+            className="m-auto pt-2 rounded-xl max-w-[95%]"
           />
           <div className="text-center text-lg mt-4 font-semibold">
             {props.title}

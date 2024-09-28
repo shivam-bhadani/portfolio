@@ -22,6 +22,7 @@ const RecentBlogs = () => {
       initial="hidden"
       animate={mainControls}
       transition={{ duration: 0.5, delay: 0.25 }}
+      className="mx-auto w-fit"
     >
       <h1 className="text-2xl md:text-4xl font-bold text-center my-10">
         My Recent Blogs
