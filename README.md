@@ -1,1 +1,1 @@
-## Link: [https://www.shivambhadani.app/](https://www.shivambhadani.com/)
+## Link: [https://www.shivambhadani.com/](https://www.shivambhadani.com/)
