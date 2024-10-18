@@ -30,6 +30,10 @@ const studentGuideBlogsMetaData: Array<IStudentGuideBlogMetaData>= [
     slug: "faqs-related-to-competitive-programming"
   },
   {
+    title: "How to prepare for Online Assessment if you are not a competitive programmer?",
+    slug: "online-assessment-preparation-for-non-cpers"
+  },
+  {
     title: "What's the best way to use leetcode?",
     slug: "best-way-to-use-leetcode"
   },
