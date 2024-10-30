@@ -4,8 +4,14 @@ import ebs from "@/assets/blogImages/ebs.png"
 import horizontal_scaling_load_balancer from "@/assets/blogImages/horizontal_scaling_load_balancer.png"
 import tcp from "@/assets/blogImages/tcp.png"
 import asg from "@/assets/blogImages/asg.png"
+import vpc from "@/assets/blogImages/vpc.png"
 
 const recentBlogs : Array<IRecentBlog> = [
+  {
+    title: "Learn Complete AWS VPC in Just One Article",
+    thumbnail: vpc,
+    link: "https://medium.com/@shivambhadani_/aws-part-5-learn-complete-aws-vpc-in-just-one-article-5ffe34888a5c"
+  },
   {
     title: "Step-by-Step Guide to Create Your First AWS Auto Scaling Group",
     thumbnail: asg,
