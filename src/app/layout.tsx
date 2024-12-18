@@ -5,7 +5,6 @@ import "./globals.css";
 import { ThemeProvider } from "next-themes";
 import SpotlightPreview from "@/components/SpotlightPreview";
 import Footer from "@/components/Footer";
-import { BackgroundBeams } from "@/components/ui/background-beams";
 import Navbar from "@/components/Navbar";
 
 const inter = Raleway({ 
@@ -36,7 +35,6 @@ export default function RootLayout({
           <Navbar />
           <div>{children}</div>
           <Footer />
-          <BackgroundBeams />
         </ThemeProvider>
         <Analytics />
       </body>
