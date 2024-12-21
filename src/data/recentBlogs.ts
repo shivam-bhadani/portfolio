@@ -1,12 +1,17 @@
 import { IRecentBlog } from "./types";
-import introduction_to_cloud from "@/assets/blogImages/introduction_to_cloud.png"
 import horizontal_scaling_load_balancer from "@/assets/blogImages/horizontal_scaling_load_balancer.png"
 import tcp from "@/assets/blogImages/tcp.png"
 import asg from "@/assets/blogImages/asg.png"
 import vpc from "@/assets/blogImages/vpc.png"
 import rpc from "@/assets/blogImages/rpc.png"
+import system_design from "@/assets/blogImages/system_design.png"
 
 const recentBlogs : Array<IRecentBlog> = [
+  {
+    title: "System Design For Beginners: Everything You Need in One Article",
+    thumbnail: system_design,
+    link: "https://medium.com/@shivambhadani_/system-design-for-beginners-everything-you-need-in-one-article-c74eb702540b"
+  },
   {
     title: "Learn Complete AWS VPC in Just One Article",
     thumbnail: vpc,
@@ -26,11 +31,6 @@ const recentBlogs : Array<IRecentBlog> = [
     title: "Understanding TCP and building our own TCP Server in C language",
     thumbnail: tcp,
     link: "https://medium.com/@shivambhadani_/understanding-tcp-and-building-our-own-tcp-server-in-c-language-8de9d9de78ef"
-  },
-  {
-    title: "Introduction to Cloud and EC2",
-    thumbnail: introduction_to_cloud,
-    link: "https://medium.com/@shivambhadani_/aws-part-1-introduction-to-cloud-and-ec2-f06cdc80a1fc"
   },
   {
     title: "Horizontal Scaling and Load Balancer",
