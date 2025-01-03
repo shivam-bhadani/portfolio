@@ -1,5 +1,5 @@
 import { IRecentBlog } from "./types";
-import horizontal_scaling_load_balancer from "@/assets/blogImages/horizontal_scaling_load_balancer.png"
+import ci_cd from "@/assets/blogImages/ci_cd_logo.png"
 import tcp from "@/assets/blogImages/tcp.png"
 import asg from "@/assets/blogImages/asg.png"
 import vpc from "@/assets/blogImages/vpc.png"
@@ -11,6 +11,11 @@ const recentBlogs : Array<IRecentBlog> = [
     title: "System Design For Beginners: Everything You Need in One Article",
     thumbnail: system_design,
     link: "https://medium.com/@shivambhadani_/system-design-for-beginners-everything-you-need-in-one-article-c74eb702540b"
+  },
+  {
+    title: "Getting Started with CI/CD: An Introductory Guide to GitHub Actions for New Developers",
+    thumbnail: ci_cd,
+    link: "https://medium.com/@shivambhadani_/getting-started-with-ci-cd-an-introductory-guide-to-github-actions-for-new-developers-f216d87f4dab"
   },
   {
     title: "Learn Complete AWS VPC in Just One Article",
@@ -32,11 +37,6 @@ const recentBlogs : Array<IRecentBlog> = [
     thumbnail: tcp,
     link: "https://medium.com/@shivambhadani_/understanding-tcp-and-building-our-own-tcp-server-in-c-language-8de9d9de78ef"
   },
-  {
-    title: "Horizontal Scaling and Load Balancer",
-    thumbnail: horizontal_scaling_load_balancer,
-    link: "https://medium.com/@shivambhadani_/aws-part-3-horizontal-scaling-and-load-balancer-223d005ef11e"
-  }
 ]
 
 export default recentBlogs;
