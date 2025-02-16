@@ -64,8 +64,8 @@ const Contact = () => {
                 <ImLocation size="1.5rem" />
               </div>
               <div>
-                <span className="font-semibold">Address:</span> Marathahalli,
-                Bengaluru, PinCode - 560037, Karnataka, India
+                <span className="font-semibold">Address:</span> Sector 57,
+                Gurugram, Haryana, PinCode - 122011, India
               </div>
             </li>
           </ul>
