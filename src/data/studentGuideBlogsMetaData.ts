@@ -2,8 +2,8 @@ import { IStudentGuideBlogMetaData } from "./types";
 
 const studentGuideBlogsMetaData: Array<IStudentGuideBlogMetaData>= [
   {
-    title: "Minimum knowledge required to clear most Software Developer interviews",
-    slug: "minimum-knowledge-to-clear-interviews"
+    title: "Minimum knowledge required to crack Software Developer Interviews",
+    slug: "minimum-knowledge-to-crack-interviews"
   },
   {
     title: "How to search and apply for off-campus jobs/internships?",
